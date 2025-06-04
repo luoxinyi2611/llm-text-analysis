@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ### 3. Configure the Environment
 
 1. **Set up the API key**:  
-   Create a `.env` file in the root directory (if not already present) and add your Hugging Face API key:
+   Create a `.env` file in the root directory (if not already present) and add your Hugging Face API key, if you don't have the api key, please log onto Hugging Face and generate one ([text](https://huggingface.co/settings/tokens/new?tokenType=read)):
 
    ```plaintext
    HF_API_KEY=your_huggingface_api_key
