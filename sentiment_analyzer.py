@@ -70,7 +70,11 @@ def get_user_input():
     return validate_input(text)
 
 def call_huggingface_api(text):
-    """Send text to Hugging Face API and return result with rate limit info."""
+    """
+    Send text to Hugging Face API and return result with rate limit info. \n
+    Currently rate limit returns "Unknown" as the API does not provide this in the response, still debugging.
+
+    """
     headers = {"Authorization": f"Bearer {API_KEY}"}
     payload = {"inputs": text}
     
